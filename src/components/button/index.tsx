@@ -1,4 +1,4 @@
-import React, { type ComponentProps, type PropsWithChildren } from "react";
+import { type ComponentProps, type PropsWithChildren } from "react";
 
 interface IButtonProps extends ComponentProps<"button"> {
   varient?: "default" | "outlined";
