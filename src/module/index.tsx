@@ -1,4 +1,3 @@
-import React from "react";
 import { CTA } from "./home/components/CTA";
 import { Navbar } from "./home/components/navbar";
 import { Hero } from "./home/components/hero";

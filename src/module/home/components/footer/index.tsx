@@ -1,5 +1,3 @@
-import React from "react";
-
 export const footerLinks = [
   {
     id: 1,

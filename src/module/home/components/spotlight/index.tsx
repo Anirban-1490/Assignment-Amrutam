@@ -1,5 +1,3 @@
-import React from "react";
-
 export const featuredImages = [
   {
     id: "image-295",
