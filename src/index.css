@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  min-height: 100dvh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+
+}
+
+@theme inline {
+  --color-primary-500: #FFF7E2;
+  --color-primary-600: #FFF8E6;
+  --color-primary-800: #FFEDBF;
+  --color-primary-accent: #FFE6A5;
+  --color-grey-100: #D9D9D9;
+  --color-grey-200: #C2C2C2;
+  --color-grey-300: #C6C1B9;
+  --color-grey-400: #9E9E9E;
+  --color-grey-500: #7E7E7E;
+  --color-grey-600: #666666;
+  --color-grey-700: #4C4C4C;
+  --color-grey-900: #312E2E;
+  --color-grey-800: #333333;
+  --color-secondary: #3A643C;
+  --color-secondary-accent: #33643F;
+  --color-secondary-200: rgba(131, 167, 133, 0.5);
+  --color-extrabold-accent: #0C0C0C;
+  --color-green-500: #DBDCC4;
+  --color-green-700: #3A643B;
+  --color-topbar: #373636;
+  --color-shadow-blue-100: rgba(18, 90, 140, 0.15);
+  --color-primary-review: #FFEEC3;
+  --spacing-4: 10px;
+  --text-4.5xl: 2.5rem;
+  --text-2.5xl: 1.75rem;
+  --text-shadow-blue: 0 4px 14px var(--color-shadow-blue-100);
+}
+
+@layer base {
+  h2 {
+    @apply font-bold text-4.5xl
+  }
+
+  h3 {
+    @apply text-2.5xl font-medium
+  }
+
+  h4 {
+    @apply text-xl
+  }
+
+  h5 {
+    @apply text-lg
+  }
+
+  p {
+    @apply text-xl
+  }
+
+  textarea, input {
+    @apply text-xl font-medium leading-[175%] text-grey-500 outline-none border-b-2 border-grey-200 resize-none
+  }
+
+}
